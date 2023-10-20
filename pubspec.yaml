@@ -1,0 +1,76 @@
+name: club
+description: A new Flutter project.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=2.19.4 <3.0.0"
+
+dependencies:
+  cached_network_image: ^3.2.3
+  firebase_auth: ^4.6.1
+  cloud_firestore: ^4.8.2
+  firebase_core: ^2.14.0
+  firebase_storage: ^11.2.4
+  flutter_screenutil: ^5.8.2
+  geocoding: ^2.1.0
+  geolocator: ^9.0.2
+  get: ^4.6.5
+  glassmorphism: ^3.0.0
+  google_sign_in: ^5.4.4
+  image_picker: ^0.8.7+5
+  intl_phone_field: ^3.1.0
+  like_button: ^2.0.5
+  pinput: ^2.2.31
+  readmore: ^2.2.0
+  smooth_page_indicator: ^1.1.0
+  fluttertoast: ^8.2.2
+  shared_preferences: ^2.2.0
+  firebase_messaging: ^14.6.5
+  flutter_local_notifications: ^15.1.0+1
+  app_settings: ^5.0.0
+  http:
+  dotted_line: ^3.2.2
+  flutter_launcher_icons: ^0.13.1
+  carousel_slider: ^4.2.1
+  flashy_tab_bar2: ^0.0.6
+  skeletonizer: ^0.5.0
+  sms_autofill: ^2.3.0
+  qr_flutter: ^4.1.0
+  flutter_native_splash: ^2.3.1
+  numberpicker: ^2.1.2
+  intl: ^0.18.1
+  flutter_holo_date_picker: ^1.1.0
+  time_slot: ^0.0.3
+  dots_indicator: ^3.0.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.6
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: sen
+      fonts:
+        - asset: assets/fonts/Sen-Regular.ttf
+
+    - family: metro
+      fonts:
+        - asset: assets/fonts/Metropolis-Regular.otf
+
+  assets:
+    - assets/icons/
+    - assets/background/
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/club.png"
+
+flutter_native_splash:
+  image: "assets/icons/club.png"
+  color: "#ffffff"
