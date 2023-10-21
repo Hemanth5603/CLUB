@@ -2,7 +2,7 @@
 
 **An application to promote night life cluture**
 
-Club is an application whcih provides table booking services only specific to Pubs,bars to the night life and late night party enthusiasts.
+Club is an application which provides table booking services only specific to Pubs,bars to the night life and late night party enthusiasts.
 
 Features:
  - The application includes features such as listing of all the pubs and resto-bars in the user location.
